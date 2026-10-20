@@ -1,32 +1,7 @@
 # Advanced Java Programming Laboratory & Enterprise Capstone
 
-[![Java](https://img.shields.io/badge/Java-21-orange.svg)](https://www.oracle.com/java/)
-[![Tomcat](https://img.shields.io/badge/Apache%20Tomcat-11.0.26-yellow.svg)](https://tomcat.apache.org/)
-[![Jakarta EE](https://img.shields.io/badge/Jakarta%20EE-10-blue.svg)](https://jakarta.ee/)
-[![MySQL](https://img.shields.io/badge/MySQL-8.0-blue.svg)](https://www.mysql.com/)
-[![Build](https://img.shields.io/badge/Build-Maven-red.svg)](https://maven.apache.org/)
-[![Curriculum](https://img.shields.io/badge/University-RTU%20Syllabus-green.svg)](#)
 
 A comprehensive, industry-aligned repository covering the entire **Advanced Java Laboratory Curriculum** (Experiments 1 through 7) alongside **ShopSphere**, a complete N-Tier enterprise e-commerce capstone application.
-
----
-
-## Table of Contents
-
-- [Repository Overview](#repository-overview)
-- [Directory Structure](#directory-structure)
-- [Lab Experiments (1 to 7)](#lab-experiments-1-to-7)
-  - [Lab 1: Student Registration GUI (Java Swing)](#lab-1-student-registration-gui-java-swing)
-  - [Lab 2: Calculator following MVC Architecture](#lab-2-calculator-following-mvc-architecture)
-  - [Lab 3: Java Database Connectivity (JDBC)](#lab-3-java-database-connectivity-jdbc)
-  - [Lab 4: TCP Socket Client-Server Network Programming](#lab-4-tcp-socket-client-server-network-programming)
-  - [Lab 5: Remote Method Invocation (Java RMI)](#lab-5-remote-method-invocation-java-rmi)
-  - [Lab 6: Jakarta Servlet, Filters, Sessions & Listeners](#lab-6-jakarta-servlet-filters-sessions--listeners)
-  - [Lab 7: HTML to Dynamic JSP Conversion & Expression Language](#lab-7-html-to-dynamic-jsp-conversion--expression-language)
-- [Capstone Project: ShopSphere Enterprise Suite](#capstone-project-shopsphere-enterprise-suite)
-- [Software Prerequisites & Environment](#software-prerequisites--environment)
-- [Execution & Verification Guide](#execution--verification-guide)
-- [Common Troubleshooting](#common-troubleshooting)
 
 ---
 
@@ -42,82 +17,6 @@ A comprehensive, industry-aligned repository covering the entire **Advanced Java
 | **Lab 6** | Server-Side Web Programming | Jakarta Servlets, `HttpSession`, Filters | [`LAB-6/`](file:///p:/CODING/ADV.%20JAVA%20LAB/LAB-6) |
 | **Lab 7** | Dynamic Presentation & MVC View | JSP, Expression Language (EL), JSTL | [`LAB-7/`](file:///p:/CODING/ADV.%20JAVA%20LAB/LAB-7) |
 | **Capstone** | Full E-Commerce Platform | Servlets + JSP + Swing Admin + JDBC Pool | [`JAVA_PROJECT/ShopSphere/`](file:///p:/CODING/ADV.%20JAVA%20LAB/JAVA_PROJECT/ShopSphere) |
-
----
-
-## Directory Structure
-
-```text
-ADV. JAVA LAB/
-│
-├── LAB-1/                              # Student Registration GUI (Swing)
-│   ├── StudentRegistration.java
-│   └── run_lab1.bat
-│
-├── LAB-2/                              # MVC Swing Calculator
-│   ├── CalculatorModel.java
-│   ├── CalculatorView.java
-│   ├── CalculatorController.java
-│   └── Main.java
-│
-├── LAB-3/                              # JDBC Database Operations
-│   ├── lib/mysql-connector-j-26.7.0.jar
-│   ├── src/
-│   │   ├── JdbcDemo.java
-│   │   └── App.java
-│   └── bin/
-│
-├── LAB-4/                              # TCP Socket Communication
-│   ├── Server.java
-│   └── Client.java
-│
-├── LAB-5/                              # Remote Method Invocation (RMI)
-│   ├── MyInterface.java
-│   ├── MyRemote.java
-│   ├── Server.java
-│   └── Client.java
-│
-├── LAB-6/                              # Jakarta Servlet Web Application
-│   └── servlet/
-│       ├── pom.xml
-│       └── src/main/
-│           ├── java/com/servlet/
-│           │   ├── HelloServlet.java
-│           │   ├── LoginServlet.java
-│           │   ├── HomeServlet.java
-│           │   ├── AuthFilter.java
-│           │   └── AppListener.java
-│           └── webapp/index.html
-│
-├── LAB-7/                              # HTML to JSP Conversion & EL
-│   └── servlet/
-│       ├── pom.xml
-│       └── src/main/
-│           ├── java/com/servlet/
-│           │   └── HelloServlet.java
-│           └── webapp/
-│               ├── index.html
-│               ├── student.jsp
-│               └── result.jsp
-│
-├── JAVA_PROJECT/                       # Capstone: ShopSphere E-Commerce System
-│   └── ShopSphere/
-│       ├── pom.xml
-│       ├── database/shopsphere.sql
-│       └── src/main/
-│           ├── java/com/shopsphere/
-│           │   ├── controller/         # Servlets (Login, Register, Cart, Orders, Admin)
-│           │   ├── dao/                # Data Access Objects (User, Product, Order, Category)
-│           │   ├── desktop/            # SwingInventoryViewer.java (Desktop Admin Portal)
-│           │   ├── filter/             # Authentication & Role Authorization Filters
-│           │   ├── model/              # POJO Domain Models
-│           │   └── util/               # DBConnection.java (Lightweight Connection Pool)
-│           └── webapp/                 # JSP Views, Fragments & Admin Portal
-│
-├── run_desktop_swing.bat               # 1-Click Launcher for Swing Desktop Admin
-├── start_tomcat.bat                    # 1-Click Launcher for Tomcat 11 Deployment
-└── import_database.bat                 # 1-Click Database Setup Script for MySQL
-```
 
 ---
 
